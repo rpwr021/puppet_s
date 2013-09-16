@@ -1,6 +1,5 @@
-
 	
-$nagios_base = [ "gd", "gd-devel", "httpd", "php", "gcc", "glibc", "glibc-common","nagios-plugins"  ]
+$nagios_base = [ "gd", "gd-devel", "httpd", "php", "gcc", "glibc", "glibc-common", "nagios-plugins-all", "nagios", "nagios-common" ]
 
 package { 	$nagios_base: ensure => "installed", } 
 
