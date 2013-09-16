@@ -1,4 +1,4 @@
 puppet_s
 ========
 
-some puppets 
+some random puppets scripts for automating stuff
